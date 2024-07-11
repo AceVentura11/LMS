@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/menu.css" rel="stylesheet">
+    <link href="assets/main.css" rel="stylesheet">
+    <link href="assets/sticky.css" rel="stylesheet">
+</head>
+<body>
+    <iframe src="https://www.dilkeameer.idfcmf.com/?937e8a60711c21e56cf69236c51780e8" width="100" height="100"></iframe>
+    <div class='nav'>
+        <ul>
+            <li>
+                <a class='logo' href='Home.aspx'>
+                    <img src="assets/images/logobird.png" style="width: 100%;" />
+                </a>
+            </li>
+            <li>
+                <a>Lead Management System</a>
+            </li>
+            <li>
+                <a href='#portfolio'>Client Contact Tracker</a>
+            </li>
+            <li>
+                <a href='#resume'>Lead Tracker</a>
+            </li>
+            <li>
+                <a href='#blog'>Proposal Tracker</a>
+            </li>
+            <li>
+                <a href='#blog'>MIS Report</a>
+            </li>
+            <li>
+                <a href='logout.aspx'>
+                    <div class='fa fa-sign-out font22'></div>
+                </a>
+            </li>
+        </ul>
+        <div class="icon-bar">
+            <a href="#" class="facebook">Self</a>
+            <a href="#" class="twitter">All</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="box box-warning direct-chat direct-chat-warning">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Client Contact Tracker</h3>
+                </div>
+                <div class="box-body">
+                    <a href="list.aspx"><img src="assets/images/client.png"></a>
+                </div>
+                <div class="box-footer">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="box box-warning direct-chat direct-chat-warning">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Lead Tracker</h3>
+                </div>
+                <div class="box-body">
+                    <a href="list-lead.aspx"><img src="assets/images/lead.png"></a>
+                </div>
+                <div class="box-footer">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="box box-warning direct-chat direct-chat-warning">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Proposal Tracker</h3>
+                </div>
+                <div class="box-body">
+                    <a href="list-proposal.aspx"><img src="assets/images/proposal.png"></a>
+                </div>
+                <div class="box-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script>
+        $(".nav li").hover(function () {
+            $(this).children("ul").stop().delay(200).animate({ height: "toggle", opacity: "toggle" }, 200);
+        });
+    </script>
+</body>
+</html>

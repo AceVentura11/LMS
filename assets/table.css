@@ -1,0 +1,259 @@
+﻿.pure-button:focus, a:active, a:hover {
+    outline: 0
+}
+
+.pure-button {
+    display: inline-block;
+    zoom: 1;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.button-secondary {
+    background: rgb(66, 184, 221) !important;
+    font-size:11px !important;
+}
+
+.button-success {
+    background: rgb(28, 184, 65) !important;
+    font-size: 11px !important;
+}
+
+.button-warning {
+    background: rgb(223, 117, 20) !important;
+    font-size: 11px !important;
+}
+
+.button-error {
+    background: rgb(202, 60, 60) !important;
+}
+
+.button-success, .button-error, .button-warning, .button-secondary {
+    color: white !important;
+    border-radius: 4px !important;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) !important;
+}
+
+.pure-button::-moz-focus-inner {
+    padding: 0;
+    border: 0
+}
+
+
+.pure-button {
+    font-family: inherit;
+    font-size: 100%;
+    padding: .3em 1em;
+    color: #444;
+    color: rgba(0,0,0,.8);
+    border: 1px solid #999;
+    border: transparent;
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px
+}
+
+.pure-button-hover, .pure-button:focus, .pure-button:hover {
+    filter: alpha(opacity=90);
+    background-image: -webkit-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+    background-image: linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1))
+}
+
+.pure-button-active, .pure-button:active {
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset;
+    border-color: #000\9
+}
+
+.pure-button-disabled, .pure-button-disabled:active, .pure-button-disabled:focus, .pure-button-disabled:hover, .pure-button[disabled] {
+    border: none;
+    background-image: none;
+    filter: alpha(opacity=40);
+    opacity: .4;
+    cursor: not-allowed;
+    box-shadow: none;
+    pointer-events: none
+}
+
+.pure-button-hidden {
+    display: none
+}
+
+.pure-button-primary, .pure-button-selected, a.pure-button-primary, a.pure-button-selected {
+    background-color: #0078e7;
+    color: #fff
+}    
+
+.pure-table, table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+    table .pure-g {
+        display: block
+    }
+}
+
+.pure-table {
+    margin: 0 auto;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+    width:95%;
+    margin-top:50px;
+    background-color: #FFF;
+}
+
+    .pure-table caption {
+        color: #000;
+        font: italic 85%/1 arial,sans-serif;
+        padding: 1em 0;
+        text-align: left;
+    }
+
+    .pure-table td, .pure-table th {
+        border-left: 1px solid #cbcbcb;
+        border-width: 0 0 0 1px;
+        font-size: 13px;
+        margin: 0;
+        overflow: visible;
+        padding: .5em 1em;
+        text-align: left;
+    }
+
+        .pure-table td:first-child, .pure-table th:first-child {
+            border-left-width: 0
+        }
+
+    .pure-table th {
+        background-color: #e0e0e0;
+        color: #000;
+        text-align: left;
+        vertical-align: bottom
+    }
+
+    .pure-table td {
+        background-color: transparent
+    }
+
+.pure-table-odd td, .pure-table-striped tr:nth-child(2n-1) td {
+    background-color: #f2f2f2
+}
+
+.pure-table-bordered td {
+    border-bottom: 1px solid #cbcbcb
+}
+
+.pure-table-bordered tbody > tr:last-child > td {
+    border-bottom-width: 0
+}
+
+.pure-table-horizontal td, .pure-table-horizontal th {
+    border-width: 0 0 1px;
+    border-bottom: 1px solid #cbcbcb
+}
+
+.pure-table-horizontal tbody > tr:last-child > td {
+    border-bottom-width: 0
+}
+.PagerStyle table {
+    /*margin: auto;*/
+    border: none;
+}
+
+tr.PagerStyle {
+    text-align: right;
+    background-color: #f5f5f5;
+}
+
+.PagerStyle table td {
+    border: 1px;
+    padding: 5px;
+}
+
+    .PagerStyle table td:hover {
+        background-color: #f5f5f5;
+    }
+
+.PagerStyle a {
+    border: 1px solid #3c8dbc;
+    padding: 2px 5px 2px 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+.PagerStyle span {
+    padding: 2px 5px 2px 5px;
+    color: #FFF;
+    font-weight: bold;
+    background-color: #3c8dbc;
+    border: 1px solid #3c8dbc;
+}
+
+.pagination-ys {
+    /*display: inline-block;*/
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+
+    .pagination-ys table > tbody > tr > td {
+        display: contents;
+    }
+
+        .pagination-ys table > tbody > tr > td > a,
+        .pagination-ys table > tbody > tr > td > span {
+            position: relative;
+            float: left;
+            padding: 8px 12px;
+            line-height: 1.42857143;
+            text-decoration: none;
+            color: #dd4814;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            margin-left: -1px;
+        }
+
+        .pagination-ys table > tbody > tr > td > span {
+            position: relative;
+            float: left;
+            padding: 8px 12px;
+            line-height: 1.42857143;
+            text-decoration: none;
+            margin-left: -1px;
+            z-index: 2;
+            color: #aea79f;
+            background-color: #f5f5f5;
+            border-color: #dddddd;
+            cursor: default;
+        }
+
+        .pagination-ys table > tbody > tr > td:first-child > a,
+        .pagination-ys table > tbody > tr > td:first-child > span {
+            margin-left: 0;
+            border-bottom-left-radius: 4px;
+            border-top-left-radius: 4px;
+        }
+
+        .pagination-ys table > tbody > tr > td:last-child > a,
+        .pagination-ys table > tbody > tr > td:last-child > span {
+            border-bottom-right-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        .pagination-ys table > tbody > tr > td > a:hover,
+        .pagination-ys table > tbody > tr > td > span:hover,
+        .pagination-ys table > tbody > tr > td > a:focus,
+        .pagination-ys table > tbody > tr > td > span:focus {
+            color: #97310e;
+            background-color: #eeeeee;
+            border-color: #dddddd;
+        }
